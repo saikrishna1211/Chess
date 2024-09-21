@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chess board</title>
+    
+    <style>
+       .div{
+    text-align: center;
+}
+.box{
+    height:70px;
+    width:70px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: -4px;
+    margin-top: -4px;
+    font-size: 50px;
+    text-align: center;
+}
+.black{
+    background-color: black;
+    color: white;
+     
+}
+#h1{
+    text-align: center;
+    color: #c71533;
+}
+.tooltip{
+    position: relative;
+    display: block;
+    border-bottom: 3px dotted green;
+}
+.tooltip  .tool{
+  visibility: hidden;
+  width:fit-content;
+  background-color: #3809e2;
+  color: aliceblue;
+  padding: 5px;
+  position: absolute;
+  
+}
+.tooltip:hover .tool{
+    visibility: visible;
+}
+    </style>
+</head>
+<body>
+    <h1 id="h1"><u>Chessboard</u></h1>
+    <div class="div">
+        <div class="box">&#9814;</div> 
+        <div class="box black">&#9816;</div>
+        <div class="box">&#9815;</div> 
+        <div class="box black">&#9812;</div>
+        <div class="box">&#9813;</div> 
+        <div class="box black">&#9815;</div>
+        <div class="box">&#9816;</div> 
+        <div class="box black">&#9814;</div>
+    </div>
+    <div class="div">
+        <div class="box black">	&#9817;</div>
+        <div class="box">&#9817;</div> 
+        <div class="box black">&#9817;</div>
+        <div class="box">&#9817;</div> 
+        <div class="box black">&#9817;</div>
+        <div class="box">&#9817;</div> 
+        <div class="box black">&#9817;</div>
+        <div class="box">&#9817;</div> 
+    </div>
+    <div class="div">
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+    </div>
+    <div class="div">
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+    </div>
+    <div class="div">
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+    </div>
+    
+    <div class="div">
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+        <div class="box black"></div>
+        <div class="box"></div> 
+    </div>
+    <div class="div">
+        <div class="box">	&#9823;</div> 
+        <div class="box black">	&#9823;</div>
+        <div class="box">	&#9823;</div> 
+        <div class="box black">	&#9823;</div>
+        <div class="box">	&#9823;</div> 
+        <div class="box black">	&#9823;</div>
+        <div class="box">	&#9823;</div> 
+        <div class="box black">	&#9823;</div>
+    </div>
+    <div class="div">
+        <div class="box black">	&#9820;</div>
+        <div class="box">	&#9822;</div> 
+        <div class="box black">	&#9821;</div>
+        <div class="box">	&#9818;</div> 
+        <div class="box black">	&#9819;</div>
+        <div class="box">	&#9821;</div> 
+        <div class="box black">	&#9822;</div>
+        <div class="box"> &#9820;</div> 
+    </div>
+    
+    <h3 style="background-color: brown; color: aliceblue; font-size: 20px; padding: 10px; text-align: center;">Basic Introduction About Github</h3>
+    <p >>>> GitHub helps every team member work together on a project from any location while facilitating collaboration. You can also review previous versions created at an earlier point in time</p>
+    <p><b>Note:move the curser over the text to know more about github:</b></p>
+    <div class="tooltip"><center>Hover on me</center><span class="tool" >1. It makes it easy to contribute to your open-source projects<br>2. Documentation<br>3. Showcase your work<br>4. Track changes in your code across versions</span>
+    
+    </div>
+</body>
+</html>
